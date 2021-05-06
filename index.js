@@ -1,18 +1,18 @@
 const rpc = require("discord-rpc")
 const client = new rpc.Client({ transport: 'ipc' })
-client.login({ clientId : "799863650797879317" }).catch(console.error);
+client.login({ clientId : "839836024850874448" }).catch(console.error);
 
 client.on('ready', () => {
 console.log('It works..')
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity: {
-    details: "MGMC|BETA-VERSION|MOBILE\PC|VOICE|ROLEPLAY",
+    details: "[___..::|MGMC|::..___]",
     state: "Server Status Running",
 assets: {
-         large_image: "shahadq",
+         large_image: "shahad1111",
          large_text: "MGMC",
-         small_image: "shahad",
+         small_image: "shahad123",
          small_text: "MGMC",
 },
 buttons : [
