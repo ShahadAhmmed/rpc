@@ -7,7 +7,7 @@ console.log('It works..')
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity: {
-    details: "MGMC",
+    details: "[___..::|MGMC|::..___]",
     state: "MalluGamersMobileCommunity",
 assets: {
          large_image: "shahad1111",
