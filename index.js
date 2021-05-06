@@ -7,12 +7,12 @@ console.log('It works..')
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity: {
-    details: "[___..::|MGMC|::..___]",
-    state: "Server Status Running",
+    details: "MGMC",
+    state: "MalluGamersMobileCommunity",
 assets: {
          large_image: "shahad1111",
          large_text: "MGMC",
-         small_image: "shahad123",
+         small_image: "shahad",
          small_text: "MGMC",
 },
 buttons : [
